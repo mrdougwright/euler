@@ -11,3 +11,5 @@ def sum_of_multiples(num)
 end
 
 sum_of_multiples(1000)
+ 
+# solved - http://projecteuler.net/problems
