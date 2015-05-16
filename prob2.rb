@@ -1,3 +1,7 @@
+
+
+# old version 3/7/2013
+
 def fib_recur(var1,var2)
 	my_array = [2]
 	total = 0
@@ -16,6 +20,6 @@ def fib_recur(var1,var2)
 	puts "total: #{total}"
 end
 
-fib_recur(1,2)
+# fib_recur(1,2)
 
 # should refactor for recursion, though recursion sucks
