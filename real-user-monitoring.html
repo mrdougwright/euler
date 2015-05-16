@@ -1,0 +1,923 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Real User Monitoring, End User Experience Monitoring : New Relic</title>
+    <meta name="description" content="Monitor the front-end performance and find out about issues before your customers complain with SaaS real user monitoring from New Relic. Take a free trial." /><meta name="keywords" content="end user experience monitoring, end user monitoring, real user monitoring, user experience monitoring, new relic" />
+    <link rel="canonical" href="http://newrelic.com/product/real-user-monitoring">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9">
+    <meta name="globalsign-domain-verification" content="0nvjtgs7IVTzMqT9y7i-_lBusAdDxPpWAsf33s8x1T">
+    <script src="//cdn.optimizely.com/js/7331003.js"></script>
+    <link href="/stylesheets/global.css?1363115602" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/chat.css?1363115602" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/marketing.css?1363115602" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/buttons.css?1363115602" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/forms.css?1363115602" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/storefront.css?1363115602" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/colorbox.css?1363115602" media="screen" rel="stylesheet" type="text/css" /> 
+      <link href="/stylesheets/refresh.css?1363115602" media="screen" rel="stylesheet" type="text/css" />
+    <!--[if lt IE 9]>
+    <script src="/javascripts/html5.js"></script>
+    <![endif]-->
+    <script src="/javascripts/jquery.min.js?1363115602" type="text/javascript"></script>
+<script src="/javascripts/expandable-form.js?1363115602" type="text/javascript"></script>
+<script src="/javascripts/jquery.infieldlabel.js?1363115602" type="text/javascript"></script>
+<script src="/javascripts/rails.js?1363115602" type="text/javascript"></script>
+<script src="/javascripts/jquery.js_message.js?1363115602" type="text/javascript"></script>
+<script src="/javascripts/new-relic.js?1363115602" type="text/javascript"></script>
+<script src="/javascripts/app.js?1363115602" type="text/javascript"></script>
+<script src="/javascripts/jquery.colorbox-min-1.3.17.js?1363115602" type="text/javascript"></script>
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="UDx/uKswwucBnhHCIz8OtSkeBr8+U6cIDsuc/5YauJI=" name="csrf-token" />
+    <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+        <!--  Start of DoubleClick Floodlight Tag: Please do not remove
+    Activity name of this tag: Product - RUM
+    URL of the webpage where the tag is expected to be placed: http://newrelic.com/product/real-user-monitoring
+    This tag must be placed between the <body> and </body> tags, as close as possible to the opening tag.
+    Creation Date: 07/12/2012    -->
+    <script type="text/javascript">
+    var axel = Math.random() + "";
+    var a = axel * 10000000000000;
+    document.write('<iframe src="//fls.doubleclick.net/activityi;src=3742665;type=produ504;cat=produ449;ord=1;num=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+    </script>
+    <noscript>
+    <iframe src="//fls.doubleclick.net/activityi;src=3742665;type=produ504;cat=produ449;ord=1;num=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+    </noscript>
+    <!-- End of DoubleClick Floodlight Tag: Please do not remove -->
+    
+
+  <script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script></head>
+  <body id="product-page" class="chrome" style="-webkit-text-size-adjust: none;" >
+      <script type="text/javascript">var _kiq = _kiq || [];</script>
+    <script type="text/javascript" src="//s3.amazonaws.com/ki.js/47215/9xC.js" async="true"></script>
+    <!--Optional for identifying users:
+    <script type="text/javascript" charset="utf-8">
+    _kiq.push(['identify', 'your_identifier_here']);
+    </script>
+    -->
+
+  <div class="full-width" style="position:fixed; top:0px; z-index:1010;">
+<div class="full-width top-line">&nbsp;</div>
+<div class="full-width  grey_header">
+<style> #messages { border: medium none; color: #DD4422; height: 30px; padding: 0; position: absolute; right: 10px; top: 40px; width: 210px; font-size:12px;} </style>
+
+  <div id="red-banner" class="top-banner">
+    <div class="slim container row">
+      <div class="banner">
+        <a href="#" id="open-signup-form">Get your FREE SHIRT when you click here and use New Relic!</a>
+      </div>
+
+    </div>
+    <script>
+      $(".grey_header").css({"background-position": "0 20px"});
+    </script> 
+  </div>
+  
+  <div class="slim container navigation grey_header_bevel">
+
+    <div class="row">
+      <a href="/index"><div class="four columns logo"></div></a>
+      <div class="twelve columns offset-minus-one">
+          <ul>
+            <li class="nav-product"><a href="/product">Product</a> </li>
+            <li class="nav-enterprise"><a href="/enterprise">Enterprise</a></li>
+            <li class="nav-pricing"><a href="/pricing">Pricing</a></li>
+            <li class="nav-community"><a href="/blog">Blog</a></li>
+            <li class="nav-about"><a href="/about">About</a></li>
+            <li><a href="https://rpm.newrelic.com" class="sign-in">Sign In</a></li>
+          </ul>
+      </div>
+    
+      <div id="sign-in-box">
+  <form action="https://rpm.newrelic.com/session" method="post" class="nice">
+    <label>Email</label>
+    <input type="text" class="medium input-text" name="login[email]"/>
+    <label>Password</label>
+    <input type="password" class="medium input-text" name="login[password]"/>
+    <button class="medium red nice radius button" type="submit">Sign In</button>
+  </form>
+  Not registered? <a href="/signup" class="red-link"><strong>Sign up now &raquo;</strong></a>
+</div>
+
+
+    </div>
+  </div>
+</div>
+
+<div id="transition-bar" class="full-width">
+    <div class="slim container">
+    <!--[if lte IE 9]>
+<script>if (window.location.protocol == "http:") {var restOfUrl = window.location.href.substr(5);window.location = "https:" + restOfUrl;}</script>
+<![endif]-->
+<link href="/stylesheets/expandable_form.css?1363115602" media="screen" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+$(function(){ 
+  $('label').inFieldLabels({ fadeOpacity: 0.5 });
+  $('select#country').change(function(){
+    if ($(this).val() == "USA") {
+      $('div#field_countries').fadeOut(250);
+      $('div#field_zip').animate({marginTop:0},250).fadeIn(250,function(){
+          $('input#postal_code').focus();
+        });
+      };
+  });
+  $('a#country_reselect').click(function(){
+    $('div#field_zip').fadeOut(250);
+    $('div#field_countries').animate({marginTop:0},250).fadeIn(250,function(){
+          $('select#country').focus();
+    });
+  });
+});
+</script>
+
+
+<div id="expandable-form">
+
+  <div id="expando-form-container" class="slim sixteen columns">
+    
+    <div id="sign-up-for-free-trial">
+      <h4 id="signup-free-form">Sign up for free!</h4>
+      </div>
+    
+      <div id="free-trial" class="four columns hidden">
+        <div class="tshirt-dude-form">
+          <div class="tshirt-text-form">For a limited time, we are giving away t-shirts if you try New Relic</div>
+          <div class="tshirt-arrow-form">&nbsp;</div>
+        </div>
+      </div>
+    
+    
+    <form accept-charset="UTF-8" action="https://newrelic.com/signup/create" id="nr-signup-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="UDx/uKswwucBnhHCIz8OtSkeBr8+U6cIDsuc/5YauJI=" /></div>
+      <input id="form_key" name="form_key" type="hidden" value="expando_form" />
+      <input id="partner_name" name="partner_name" type="hidden" />
+
+      <a id="closeForm" href="#">&nbsp;</a>  
+      
+      <div class="left-fields">
+        <label for="Email" class="inline">Email</label><br />
+        <input type="text" form="nr-signup-form" name="Email" id="Email" class="small input-text"  tabindex="1">
+        <br />
+        <label for="FullName" class="inline">First &amp; Last Name</label><br/>
+        <input type="text" form="nr-signup-form" name="FullName" id="FullName" class="small input-text" tabindex="3">
+        <br />
+        <label for="Company" class="inline">Company Name</label><br />
+        <input type="text" form="nr-signup-form" name="Company" id="Company" class="company input-text" tabindex="5">
+        <br />
+        <label for="PromoCode" class="inline">Promotion Code (optional)</label><br />
+        <input type="text" form="nr-signup-form" name="PromoCode" id="PromoCode" class="small input-text" value="" tabindex="7">
+        <br />
+        <select name="company_size" form="nr-signup-form" id="company_size" class="breather fullselect" tabindex="9">
+          <option value="">Company Size</option>
+              <option value="Just Me">Just Me</option>
+              <option value="2-10">2-10</option>
+              <option value="11-50">11-50</option>
+              <option value="51-100">51-100</option>
+              <option value="101-500">101-500</option>
+              <option value="501-1000">501-1,000</option>
+              <option value="1001-5000">1,001-5,000</option>
+              <option value="5001-10000">5,001-10,000</option>
+              <option value="10,000+">10,000+</option>
+        </select>
+      </div>
+      <div class="right-fields" style="width:220px; height:230px; float:left;">
+        <label for="Password" class="inline">Password</label><br />
+        <input type="password" form="nr-signup-form" name="Password" id="Password" class="small input-text"  tabindex="2">
+        <br />
+        <label for="PhoneNumber" class="inline">Phone Number</label><br />
+        <input type="text" form="nr-signup-form" name="PhoneNumber" id="PhoneNumber" class="phone input-text" tabindex="4">
+        <br />
+        <div id="field_zip" style="display:none;position:relative;padding-top:16px;">
+        <p style="font-size:12px;margin:0!important;padding:0!important;position:absolute;top:6px;">
+          United States <a href="javascript:;" id="country_reselect">Change?</a>
+        </p>
+        <label for="postal_code" class="inline" style="top:18px!important;">Postal Code</label>
+        <input type="text" form="nr-signup-form" name="postal_code" id="postal_code" class="phone input-text" tabindex="6">
+        <br />
+        </div>
+        <div id="field_countries">
+          <select id="country" form="nr-signup-form" name="country" class="selectbox" tabindex="6">
+          
+<option value="">Country</option>
+          <option value="">----------------</option>
+          <option value="USA">United States</option>
+          <option value="">----------------</option>
+          <option value="AFG">Afghanistan</option>
+          <option value="ALA">Åland Islands</option>
+          <option value="ALB">Albania</option>
+          <option value="DZA">Algeria</option>
+          <option value="ASM">American Samoa</option>
+          <option value="AND">Andorra</option>
+          <option value="AGO">Angola</option>
+          <option value="AIA">Anguilla</option>
+          <option value="ATA">Antarctica</option>
+          <option value="ATG">Antigua and Barbuda</option>
+          <option value="ARG">Argentina</option>
+          <option value="ARM">Armenia</option>
+          <option value="ABW">Aruba</option>
+          <option value="AUS">Australia</option>
+          <option value="AUT">Austria</option>
+          <option value="AZE">Azerbaijan</option>
+          <option value="BHS">Bahamas</option>
+          <option value="BHR">Bahrain</option>
+          <option value="BGD">Bangladesh</option>
+          <option value="BRB">Barbados</option>
+          <option value="BLR">Belarus</option>
+          <option value="BEL">Belgium</option>
+          <option value="BLZ">Belize</option>
+          <option value="BEN">Benin</option>
+          <option value="BMU">Bermuda</option>
+          <option value="BTN">Bhutan</option>
+          <option value="BOL">Bolivia</option>
+          <option value="BES">Bonaire</option>
+          <option value="BIH">Bosnia and Herzegovina</option>
+          <option value="BWA">Botswana</option>
+          <option value="BVT">Bouvet Island</option>
+          <option value="BRA">Brazil</option>
+          <option value="IOT">British Indian Ocean Territory</option>
+          <option value="BRN">Brunei Darussalam</option>
+          <option value="BGR">Bulgaria</option>
+          <option value="BFA">Burkina Faso</option>
+          <option value="BDI">Burundi</option>
+          <option value="KHM">Cambodia</option>
+          <option value="CMR">Cameroon</option>
+          <option value="CAN">Canada</option>
+          <option value="CPV">Cape Verde</option>
+          <option value="CYM">Cayman Islands</option>
+          <option value="CAF">Central African Republic</option>
+          <option value="TCD">Chad</option>
+          <option value="CHL">Chile</option>
+          <option value="CHN">China</option>
+          <option value="CXR">Christmas Island</option>
+          <option value="CCK">Cocos (Keeling) Islands</option>
+          <option value="COL">Colombia</option>
+          <option value="COM">Comoros</option>
+          <option value="COG">Congo</option>
+          <option value="COD">Congo, Democratic Republic</option>
+          <option value="COK">Cook Islands</option>
+          <option value="CRI">Costa Rica</option>
+          <option value="HRV">Croatia</option>
+          <option value="CUB">Cuba</option>
+          <option value="CUW">Curaçao</option>
+          <option value="CYP">Cyprus</option>
+          <option value="CZE">Czech Republic</option>
+          <option value="CIV">Côte d'Ivoire</option>
+          <option value="DNK">Denmark</option>
+          <option value="DJI">Djibouti</option>
+          <option value="DMA">Dominica</option>
+          <option value="DOM">Dominican Republic</option>
+          <option value="ECU">Ecuador</option>
+          <option value="EGY">Egypt</option>
+          <option value="SLV">El Salvador</option>
+          <option value="GNQ">Equatorial Guinea</option>
+          <option value="ERI">Eritrea</option>
+          <option value="EST">Estonia</option>
+          <option value="ETH">Ethiopia</option>
+          <option value="FLK">Falkland Islands (Malvinas)</option>
+          <option value="FRO">Faroe Islands</option>
+          <option value="FJI">Fiji</option>
+          <option value="FIN">Finland</option>
+          <option value="FRA">France</option>
+          <option value="GUF">French Guiana</option>
+          <option value="PYF">French Polynesia</option>
+          <option value="ATF">French Southern Territories</option>
+          <option value="GAB">Gabon</option>
+          <option value="GMB">Gambia</option>
+          <option value="GEO">Georgia</option>
+          <option value="DEU">Germany</option>
+          <option value="GHA">Ghana</option>
+          <option value="GIB">Gibraltar</option>
+          <option value="GRC">Greece</option>
+          <option value="GRL">Greenland</option>
+          <option value="GRD">Grenada</option>
+          <option value="GLP">Guadeloupe</option>
+          <option value="GUM">Guam</option>
+          <option value="GTM">Guatemala</option>
+          <option value="GGY">Guernsey</option>
+          <option value="GIN">Guinea</option>
+          <option value="GNB">Guinea-Bissau</option>
+          <option value="GUY">Guyana</option>
+          <option value="HTI">Haiti</option>
+          <option value="HMD">Heard Island and McDonald Islands</option>
+          <option value="VAT">Holy See (Vatican City State)</option>
+          <option value="HND">Honduras</option>
+          <option value="HKG">Hong Kong</option>
+          <option value="HUN">Hungary</option>
+          <option value="ISL">Iceland</option>
+          <option value="IND">India</option>
+          <option value="IDN">Indonesia</option>
+          <option value="IRN">Iran</option>
+          <option value="IRQ">Iraq</option>
+          <option value="IRL">Ireland</option>
+          <option value="IMN">Isle of Man</option>
+          <option value="ISR">Israel</option>
+          <option value="ITA">Italy</option>
+          <option value="JAM">Jamaica</option>
+          <option value="JPN">Japan</option>
+          <option value="JEY">Jersey</option>
+          <option value="JOR">Jordan</option>
+          <option value="KAZ">Kazakhstan</option>
+          <option value="KEN">Kenya</option>
+          <option value="KIR">Kiribati</option>
+          <option value="PRK">Korea, North</option>
+          <option value="KOR">Korea, South</option>
+          <option value="KWT">Kuwait</option>
+          <option value="KGZ">Kyrgyzstan</option>
+          <option value="LAO">Laos</option>
+          <option value="LVA">Latvia</option>
+          <option value="LBN">Lebanon</option>
+          <option value="LSO">Lesotho</option>
+          <option value="LBR">Liberia</option>
+          <option value="LBY">Libya</option>
+          <option value="LIE">Liechtenstein</option>
+          <option value="LTU">Lithuania</option>
+          <option value="LUX">Luxembourg</option>
+          <option value="MAC">Macao</option>
+          <option value="MKD">Macedonia</option>
+          <option value="MDG">Madagascar</option>
+          <option value="MWI">Malawi</option>
+          <option value="MYS">Malaysia</option>
+          <option value="MDV">Maldives</option>
+          <option value="MLI">Mali</option>
+          <option value="MLT">Malta</option>
+          <option value="MHL">Marshall Islands</option>
+          <option value="MTQ">Martinique</option>
+          <option value="MRT">Mauritania</option>
+          <option value="MUS">Mauritius</option>
+          <option value="MYT">Mayotte</option>
+          <option value="MEX">Mexico</option>
+          <option value="FSM">Micronesia</option>
+          <option value="MDA">Moldova</option>
+          <option value="MCO">Monaco</option>
+          <option value="MNG">Mongolia</option>
+          <option value="MNE">Montenegro</option>
+          <option value="MSR">Montserrat</option>
+          <option value="MAR">Morocco</option>
+          <option value="MOZ">Mozambique</option>
+          <option value="MMR">Myanmar</option>
+          <option value="NAM">Namibia</option>
+          <option value="NRU">Nauru</option>
+          <option value="NPL">Nepal</option>
+          <option value="NLD">Netherlands</option>
+          <option value="NCL">New Caledonia</option>
+          <option value="NZL">New Zealand</option>
+          <option value="NIC">Nicaragua</option>
+          <option value="NER">Niger</option>
+          <option value="NGA">Nigeria</option>
+          <option value="NIU">Niue</option>
+          <option value="NFK">Norfolk Island</option>
+          <option value="MNP">Northern Mariana Islands</option>
+          <option value="NOR">Norway</option>
+          <option value="OMN">Oman</option>
+          <option value="PAK">Pakistan</option>
+          <option value="PLW">Palau</option>
+          <option value="PSE">Palestinian Territory</option>
+          <option value="PAN">Panama</option>
+          <option value="PNG">Papua New Guinea</option>
+          <option value="PRY">Paraguay</option>
+          <option value="PER">Peru</option>
+          <option value="PHL">Philippines</option>
+          <option value="PCN">Pitcairn</option>
+          <option value="POL">Poland</option>
+          <option value="PRT">Portugal</option>
+          <option value="PRI">Puerto Rico</option>
+          <option value="QAT">Qatar</option>
+          <option value="ROU">Romania</option>
+          <option value="RUS">Russian Federation</option>
+          <option value="RWA">Rwanda</option>
+          <option value="REU">Réunion</option>
+          <option value="BLM">Saint Barthélemy</option>
+          <option value="SHN">Saint Helena, Ascension and Tristan da Cunha</option>
+          <option value="KNA">Saint Kitts and Nevis</option>
+          <option value="LCA">Saint Lucia</option>
+          <option value="MAF">Saint Martin</option>
+          <option value="SPM">Saint Pierre and Miquelon</option>
+          <option value="VCT">Saint Vincent and the Grenadines</option>
+          <option value="WSM">Samoa</option>
+          <option value="SMR">San Marino</option>
+          <option value="STP">Sao Tome and Principe</option>
+          <option value="SAU">Saudi Arabia</option>
+          <option value="SEN">Senegal</option>
+          <option value="SRB">Serbia</option>
+          <option value="SYC">Seychelles</option>
+          <option value="SLE">Sierra Leone</option>
+          <option value="SGP">Singapore</option>
+          <option value="SXM">Sint Maarten</option>
+          <option value="SVK">Slovakia</option>
+          <option value="SVN">Slovenia</option>
+          <option value="SLB">Solomon Islands</option>
+          <option value="SOM">Somalia</option>
+          <option value="ZAF">South Africa</option>
+          <option value="SGS">South Georgia and the South Sandwich Islands</option>
+          <option value="SSD">South Sudan</option>
+          <option value="ESP">Spain</option>
+          <option value="LKA">Sri Lanka</option>
+          <option value="SDN">Sudan</option>
+          <option value="SUR">Suriname</option>
+          <option value="SJM">Svalbard and Jan Mayen</option>
+          <option value="SWZ">Swaziland</option>
+          <option value="SWE">Sweden</option>
+          <option value="CHE">Switzerland</option>
+          <option value="SYR">Syrian Arab Republic</option>
+          <option value="TWN">Taiwan</option>
+          <option value="TJK">Tajikistan</option>
+          <option value="TZA">Tanzania</option>
+          <option value="THA">Thailand</option>
+          <option value="TLS">Timor-Leste</option>
+          <option value="TGO">Togo</option>
+          <option value="TKL">Tokelau</option>
+          <option value="TON">Tonga</option>
+          <option value="TTO">Trinidad and Tobago</option>
+          <option value="TUN">Tunisia</option>
+          <option value="TUR">Turkey</option>
+          <option value="TKM">Turkmenistan</option>
+          <option value="TCA">Turks and Caicos Islands</option>
+          <option value="TUV">Tuvalu</option>
+          <option value="UGA">Uganda</option>
+          <option value="UKR">Ukraine</option>
+          <option value="ARE">United Arab Emirates</option>
+          <option value="GBR">United Kingdom</option>
+          <option value="UMI">United States Minor Outlying Islands</option>
+          <option value="USA">United States</option>
+          <option value="URY">Uruguay</option>
+          <option value="UZB">Uzbekistan</option>
+          <option value="VUT">Vanuatu</option>
+          <option value="VEN">Venezuela</option>
+          <option value="VNM">Vietnam</option>
+          <option value="VGB">Virgin Islands, British</option>
+          <option value="VIR">Virgin Islands, U.S.</option>
+          <option value="WLF">Wallis and Futuna</option>
+          <option value="ESH">Western Sahara</option>
+          <option value="YEM">Yemen</option>
+          <option value="ZMB">Zambia</option>
+          <option value="ZWE">Zimbabwe</option>
+        </select>
+
+        <br/>
+        </div>
+
+        <!-- <select name="sector" id="sector" class="breather fullselect" tabindex="8">
+          <option value="">Business Type</option>
+          <option value="Ecommerce">Ecommerce</option>
+          <option value="Consumer Internet">Consumer Internet</option>
+          <option value="Online Game">Online Game</option>
+          <option value="Business Application">Business Application</option>
+          <option value="Agency / Dev Shop">Agency / Dev Shop</option>
+          <option value="Mobile App">Mobile App</option>
+          <option value="Other">Other</option>
+        </select> -->
+        <select name="group" form="nr-signup-form" id="group" class="selectbox" tabindex="8">
+          <option value="">Application Type</option>
+            <option value="Blog">Blog</option>
+            <option value="CMS/wiki">CMS/wiki</option>
+            <option value="Consumer internet">Consumer internet</option>
+            <option value="E-commerce">E-commerce</option>
+            <option value="Marketing site">Marketing site</option>
+            <option value="Mobile app">Mobile app</option>
+            <option value="Online games">Online games</option>
+            <option value="Online training &amp; collaboration">Online training &amp; collaboration</option>
+            <option value="SaaS (B2B)">SaaS (B2B)</option>
+            <option value="SaaS (Consumer)">SaaS (Consumer)</option>
+            <option value="Streaming media">Streaming media</option>
+            <option value="Social networking">Social networking</option>
+            <option value="Other">Other</option>
+        </select>
+        <br />
+        <div class="select-alignment-fix">
+        <select name="HostEstimate" id="HostEstimate" class="breather" tabindex="10">
+          <option value="">Number of Servers</option>
+           <option value="1-2">1-2 Servers</option>
+           <option value="3-10">3-10 Servers</option>
+           <option value="11-20">11-20 Servers</option>
+           <option value="21+">21+ Servers</option>
+        </select>
+        <a  class="question" style="float:none; margin-top:3px;" tabindex="11"><img src="/images/icons/whats-this.png" id="server-description" />
+          <span>A server is either a physical computer or a virtual machine instance running a single copy of an Operating System.</span>
+        </a>
+        <div style=" width:10px; float:right; margin:-43px 36px 0 0;">
+        </div>
+        </div>
+      </div>
+      
+      
+      <div id="languages" style="clear:both">
+        <p>Application(s):</p>
+            <input type="checkbox" id="lang_java" name="Applications[]" value="java" tabindex="12">
+            <a class="tooltip-java"><label for="lang_java" class="checkbox">Java</label><span>Includes Glassfish, JBoss, jetty://, Oracle WebLogic, Spring and more.</span></a>
+            <input type="checkbox" id="lang_php" name="Applications[]" value="php" tabindex="12">
+            <a class="tooltip-java"><label for="lang_php" class="checkbox">PHP</label><span>Includes Drupal, WordPress, Zend and more.</span></a>
+            <input type="checkbox" id="lang_python" name="Applications[]" value="python" tabindex="12">
+            <a class="tooltip-java"><label for="lang_python" class="checkbox">Python</label><span>Includes Django, Flask, Bottle, CherryPy, and more.</span></a>
+            <input type="checkbox" id="lang_ruby" name="Applications[]" value="ruby" tabindex="12">
+            <a class="tooltip-java"><label for="lang_ruby" class="checkbox">Ruby</label><span>Includes Rails, Sinatra, Rack apps and more.</span></a>
+            <input type="checkbox" id="lang_dotnet" name="Applications[]" value="dotnet" tabindex="12">
+            <a class="tooltip-java"><label for="lang_dotnet" class="checkbox">.NET</label><span>Includes .NET 2+, SharePoint, Azure and more.</span></a>
+            <input type="checkbox" id="lang_nodejs" name="Applications[]" value="nodejs" tabindex="12">
+            <a class="tooltip-java"><label for="lang_nodejs" class="checkbox">Node.js*</label><span>Coming soon!</span></a>
+      </div>
+
+        
+      <div id="sign-up-button-container" class="four columns">
+        <div id='messages' class="error"></div>
+        <div id="tos">
+         <p>By clicking sign up now, you agree to our <a href="/terms" class="red-link"><strong>terms of service.</strong></a></p> 
+         </div>
+        <button id="sign-up-button" class="small-button" type="submit">&nbsp; Create Free Account &nbsp;</button><small></small>
+      </div>
+      <input id="initial_mpc" name="initial_mpc" type="hidden" value="SM-TWIT-RPM-EN-100-leadcard-signup" />
+<input id="latest_mpc" name="latest_mpc" type="hidden" value="BA-MBED-RPM-en-100-youtube-logo" />
+<input id="initial_http_referrer" name="initial_http_referrer" type="hidden" value="http://www.google.com/url?q=http://newrelic.com/techcrunch-party&amp;sa=D&amp;usg=ALhdy28t8J8DJRwoAu5crCmFwTW36yVQ8A" />
+<input id="latest_http_referrer" name="latest_http_referrer" type="hidden" value="http://bacolicio.us/http://newrelic.com" />
+
+</form>  </div>
+
+  <script>
+$(function(){
+  $('#nr-signup-form').submit(function(){
+    var form = $(this);
+    $.jsMessage({
+      url: form.attr('action'),
+      data: form.serialize(),
+      success: function(jsMessage){
+        $('#messages').html(jsMessage.html);
+      },
+      error: function(jsMessage){
+        var msg = "I'm sorry, an error has occurred.";
+        var errors = jQuery.parseJSON(jsMessage.message);
+        
+        $("*").removeClass("rpm-signup-input-error");
+        $.each(errors, function(field, error_msg) {
+          $('#' + field).addClass("rpm-signup-input-error");
+          $('#' + field+"_ui").addClass("rpm-signup-input-error");
+          msg = (msg + '<li>' + error_msg + '</li>')
+        });
+        $('.top-up').show();
+        $('#messages').show();
+        $('#messages').html(msg);
+        if ($('select#country').val() == "USA" && $('input#postal_code').val() == "" && $('#field_zip').is(':hidden')) {
+          $('div#field_countries').fadeOut(250);
+          $('div#field_zip').animate({marginTop:0},250).fadeIn(250);
+        }
+        if ($('select#country').val() == "USA" && $('input#postal_code').hasClass('rpm-signup-input-error') && $('#field_zip').is(':hidden')) {
+          $('div#field_countries').fadeOut(250);
+          $('div#field_zip').animate({marginTop:0},250).fadeIn(250);
+        }
+      }
+    });
+    return false;
+  });
+});
+</script>
+
+
+
+  </div>
+  <!--  End of Form   -->
+
+  <!--  Integration Form   -->
+   <script type="text/javascript">
+  function rpm_integration(params) {
+    $('#login_rpm_email').val(params['Email']);
+    $('#login_rpm_password').val(params['Password']);
+    $('#login_rpm_form').submit();
+  };
+</script>
+ 
+<form action="https://rpm.newrelic.com/session" method="post" id="login_rpm_form" class="headroom hidden">
+  <input type="hidden" name="login[email]" id="login_rpm_email" value=""/>
+  <input type="hidden" name="login[password]" id="login_rpm_password" value=""/>
+  <input type="submit" id="login_rpm" name="login_rpm"  style="visibility:hidden;"/>
+</form>
+  <!--  End Integration Form   -->
+
+  </div>
+</div>
+
+  </div>
+  <div class="full-width zero-height" style="height:180px;">&nbsp;</div>
+
+  
+<!-- Webfont Helvetica Neue -->
+<script type="text/javascript" src="https://fast.fonts.com/jsapi/d72e74c8-fd95-4733-a4ac-5dd06eab77f2.js"></script>
+
+<!-- HEADER -->
+<div class="pageHeaderProduct">
+  <h1>One product. One view.<br />Across your entire stack.
+  <div class="callout"><a href="/application-monitoring-iphone"><img src="/images/background/new_relic_for_iphone.png" alt="New: New Relic for iPhone. Learn More."></a></div>
+  </h1>
+</div>
+
+<!-- CONTENT -->
+<div class="wrapper">
+
+<!-- BEGIN PRODUCT NAV -->
+<div class="productNav slim  podShadow podBorder roundedBox">
+<ul>
+  <li><a href="/product/real-user-monitoring" class="roundedLeft selected"><div class='navImage realUserMonitoring realUserMonitoringActive'></div>Real User Monitoring</a></li>
+  <li><a href="/product/application-monitoring"><div class='navImage APPmonitoring'></div>Application Monitoring</a></li>
+  <li><a href="/product/server-monitoring"><div class='navImage serverMonitoring'></div>Server Monitoring</a></li>
+  <li><a href="/product/why-new-relic" class="roundedRight"><div class='navImage whyNewRelic'></div>Why New Relic</a></li>  
+</ul>
+<div class="tab-arrow RUM"></div>
+</div>
+
+<!-- BEGIN PRODUCT INTRO -->
+<div class="productIntro">
+<h2>Real users, real insights</h2>
+<p>Track exactly what your customers are experiencing – from the moment they click until the page has loaded.</p>
+</div>
+
+<!-- BEGIN PRODUCT PODS -->
+<div class="pod slim podShadow podBorder roundedBox RUMspriteRight monitorPerformance">
+<div class="greenEdgeLeft"></div>
+  <h3>Get real-time end user experience monitoring</h3>
+  <ul>
+  <li>Real-time production monitoring of page load times by app,<br/> network, DOM processing and page rendering</li>
+  <li>Page load times by browser type and geography</li>
+  <li>Page views throughput</li>
+  <li>Performance metrics by page</li>
+</ul>
+<div class="leftArrow "></div>
+</div>
+
+<div class="pod rightPod slim  podShadow podBorder roundedBox RUMspriteLeft customerSatisfaction">
+<div class="greenEdgeRight">div>
+<h3>Ensure customer satisfaction</h3>
+<ul>
+  <li>Apdex: Define an SLA for response time and track how well you&#8217;re meeting that target</li>
+  <li>Identify poor browser performance patterns</li>
+  <li>Browser transaction tracing for individual instances</li>
+  <li>App Speed Index - Benchmark your app with your industry peers</li>
+</ul>
+<div class="rightArrow "></div>
+</div>
+
+<div class="pod slim podShadow podBorder roundedBox RUMspriteRight customerCall">
+<div class="greenEdgeLeft"></div>
+<h3>When customers call, it&#8217;s too late</h3>
+<ul>
+  <li>Alerts and notifications</li>
+  <li>Error and availability reports</li>
+  <li>Weekly performance reports</li>
+</ul>
+<div class="leftArrow "></div>
+</div>
+
+<!-- BEGIN PREVIOUS/NEXT LINKS -->
+<div class="nextSection"><a href="/product/application-monitoring">Application Monitoring &raquo;</a></div>
+
+</div>
+
+<!-- BEGIN TSHIRT CTA -->
+<div class="tshirtCTAWrapper">
+<div class="container slim">
+  <div class="tshirt"></div>
+    <div class="left">
+    <p>Deploy New Relic to speed up your website and we'll send you this cool t-shirt.</p>
+    <div class="button"> <a id="open-signup-form" href="#">Create Your Free Account</a> <small></small>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+  <style type="text/css">
+  #less { display:block;}
+  #more{ display:none; height:auto; width:940px; margin:50px 0 0;}
+  #more span a, #less a{ cursor:pointer; font-size:13px;}
+  .footer span{ font-size:13px;}
+  .lowest{ background-color: #000000; margin-bottom: 0;}
+  .copyright-bg-blk{ background-color: #000000; color: #FFFFFF;
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#222222', endColorstr='#000000');     /* for IE */
+      background: -webkit-gradient(linear, left top, left bottom, from(#333), to(#000));                     /* for webkit browsers */
+      background: -moz-linear-gradient(top,  #333,  #000);                                                   /* for firefox 3.6+ */
+    }
+</style>
+<script type="text/javascript">
+$(function(){
+  $('#less a').toggle(function(){
+    $(this).text('Show Less');
+    $('#more').slideDown();
+  },function(){
+    $(this).text('Show More');
+    $('#more').slideUp();
+  });
+});
+</script>
+
+<div id="site-info">
+  <div class="full-width footer lowest">
+    <div class="slim container">
+      <div class="row">
+        <div class="five columns">
+          <img src="/images/logo/new-relic-small.png" /><br />
+          <span>New Relic is the all-in-one web application performance management (APM) tool that lets you see performance from the end user experience, through servers, and down to the line of application code.</span>
+          <div id="less"><a class="link">Show More</a></div>
+          <div id="more">
+            <span style='display:inline-block; padding:18px 0;'>Our SaaS-based <a href="http://newrelic.com/product/application-monitoring" style="text-decoration:underline;">application performance monitoring</a> software helps developers and DevOps teams manage their web app performance and mobile app performance. Through application monitoring and application mapping, it provides in-depth, real-time visibility into the health and reliability of web applications.</span>
+
+            <span style='display:inline-block;'>The tool&#8217;s Ruby monitoring, PHP monitoring, Python monitoring, Java monitoring, and .NET monitoring agents offer multi-platform support and provide immediate value for polyglot development practices. Its Java Profiling feature helps find and fix Java issues quickly. <a href="http://newrelic.com/product/real-user-monitoring" style="text-decoration:underline;">Real User Monitoring</a> (RUM) sees real user experiences from the end user’s perspective. And <a href="http://newrelic.com/product/server-monitoring" style="text-decoration:underline;">Server Monitoring</a> shows server resource data in the context of real time app performance whether apps are deployed in the cloud, your data center, or in hybrid environments.</span>
+          </div>
+
+          <ul class="breather">
+            <li>
+              <a href="http://www.facebook.com/NewRelic"><img src="/images/icons/facebook.png" /></a>&nbsp;
+              <a href="http://feeds2.feedburner.com/NewRelic"><img src="/images/icons/rss.png" /></a>&nbsp;
+              <a href="http://twitter.com/NewRelic"><img src="/images/icons/twitter.png" /></a>&nbsp;
+            <a href="https://plus.google.com/101892797062342077748" rel="publisher"><img src="/images/icons/google-plus.png" /></a>
+            </li>
+          </ul>
+        </div>
+
+
+        <div class="three columns">
+          <ul>
+            <li class="title">New Relic App</li>
+            <li><a href="/product">Product</a></li>
+            <li><a href="/resources">Resources</a> </li>
+            <li><a href="/pricing">Pricing</a> </li>
+            <li><a href="/ASI">App Speed Index</a> </li>
+            <li><a href="/connect">Connect</a></li>
+          </ul>
+        </div>
+
+        <div class="three columns">
+          <ul>
+            <li class="title">Support</li>
+            <li><a href="mailto:support@newrelic.com">support@newrelic.com</a></li>
+            <li><a href="https://support.newrelic.com/">Open a support request</a></li>
+            <li><a href="http://newrelic.com/docs">Documentation</a></li>
+            <li><a href="http://status.newrelic.com">status.newrelic.com</a></li>
+            <li><a href="http://trust.newrelic.com">trust.newrelic.com</a></li>
+          </ul>
+        </div>
+
+        <div class="three columns">
+          <ul>
+            <li class="title">About</li>
+            <li><a href="/about">Overview</a></li>
+            <li><a href="/about/customers">Our Customers</a></li>
+            <li><a href="/about/partners">Our Partners</a></li>
+            <li><a href="/about/leadership">Our Leadership</a></li>
+            <li><a href="/offers">Offers</a></li>
+            <li><a href="/about/pdx-jobs">Jobs</a></li>
+            <li><a href="/about/press-releases">Press &amp; News</a></li>
+            <li><a href="/about/contact-us">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="two columns security-logos">
+          <div id="truste-logo">
+           <div id="c00f6cce-27e8-4ce1-8543-881409885289"> 
+             <script type="text/javascript" src="//privacy-policy.truste.com/privacy-seal/New-Relic,-Inc-/asc?rid=c00f6cce-27e8-4ce1-8543-881409885289"></script>
+             <a href="//privacy.truste.com/privacy-seal/New-Relic,-Inc-/validation?rid=6d18ab8c-b6a2-4c05-aaf0-ae2a559caece" title="Validate TRUSTe privacy certification" target="_blank">
+               <img style="border: none" src="//privacy-policy.truste.com/privacy-seal/New-Relic,-Inc-/seal?rid=6d18ab8c-b6a2-4c05-aaf0-ae2a559caece" alt="Validate TRUSTe privacy certification"/>
+             </a>
+            </div>
+          </div>
+          <div id="geotrust-logo" >
+            <!-- GeoTrust QuickSSL [tm] Smart  Icon tag. Do not edit. -->
+            <script language="javascript"  type="text/javascript" src="//smarticon.geotrust.com/si.js"></script>
+            <!-- end  GeoTrust Smart Icon tag -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="full-width copyright-bg-blk">
+    <div class="slim container center">
+      <span class="copyright">&copy;2008&ndash;13 New Relic, Inc. All rights reserved.
+      <a href="/terms">Terms of Service</a> | 
+      <a href="/privacy">Privacy Policy/Your Privacy Rights</a></span>
+    </div>
+    <div class="hidden">
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-3047412-20']);
+    _gaq.push(['_setDomainName', '.newrelic.com']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+  <script type="text/javascript" src="/javascripts/nr_cookies.js"></script>
+  <script src="//munchkin.marketo.net/munchkin.js" type="text/javascript"></script>
+  <script>mktoMunchkin("412-MZS-894");</script>
+  <script type="text/javascript">
+  setTimeout(function(){var a=document.createElement("script");
+  var b=document.getElementsByTagName("script")[0];
+  a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0012/9617.js?"+Math.floor(new Date().getTime()/3600000);
+  a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+  </script>
+ 
+  
+  
+  
+  <!-- Google Code for storefront NEW PIXEL SITE WIDE-->
+  <!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+  <script type="text/javascript">
+  /* <![CDATA[ */
+  var google_conversion_id = 965369084;
+  var google_conversion_label = "ZHF6CKz6uQQQ_LmpzAM";
+  var google_custom_params = window.google_tag_params;
+  var google_remarketing_only = true;
+  /* ]]> */
+  </script>
+  <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+  </script>
+  <noscript>
+  <div style="display:inline;">
+  <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/965369084/?value=0&amp;label=ZHF6CKz6uQQQ_LmpzAM&amp;guid=ON&amp;script=0"/>
+  </div>
+  </noscript>
+  
+  
+  <script type="text/javascript">
+    adroll_adv_id = "YCNZVXZ6TJDJ3KMJRVGKFH";
+    adroll_pix_id = "I7ZJI4CQMBCNHGOQ27AYQZ";
+    (function () {
+      var oldonload = window.onload;
+      window.onload = function(){
+      __adroll_loaded=true;
+      var scr = document.createElement("script");
+      var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+      scr.setAttribute('async', 'true');
+      scr.type = "text/javascript";
+      scr.src = host + "/j/roundtrip.js";
+      ((document.getElementsByTagName('head') || [null])[0] ||
+      document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+      if(oldonload){oldonload()}};
+    }());
+  </script>
+
+  <script type="text/javascript">
+  (function() {
+    window._pa = window._pa || {};
+    // _pa.orderId = "myUser@email.com"; // OPTIONAL: include your user's email address or order ID
+    // _pa.revenue = "19.99"; // OPTIONAL: include dynamic purchase value for the conversion
+    _pa.onLoadEvent = "visited_sites"; // OPTIONAL: name of segment/conversion to be fired on script load
+    var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
+    pa.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + "//tag.perfectaudience.com/serve/4ff6af9e361ed50002000341.js";
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(pa, s);
+  })();
+</script>
+  
+  <script type="text/javascript">
+    var _kmq = _kmq || [];
+    var _kmk = _kmk || 'd33670f944e0900c5c98992ea2566fd1eede8d43';
+    function _kms(u){
+      setTimeout(function(){
+        var d = document, f = d.getElementsByTagName('script')[0],
+        s = d.createElement('script');
+        s.type = 'text/javascript'; s.async = true; s.src = u;
+        f.parentNode.insertBefore(s, f);
+      }, 1);
+    }
+    _kms('//i.kissmetrics.com/i.js');
+    _kms('//doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js');
+  </script>
+  
+</div>
+<script type='text/javascript'>/*{literal}<![CDATA[*/window.olark||(function(i){var e=window,h=document,a=e.location.protocol=="https:"?"https:":"http:",g=i.name,b="load";(function(){e[g]=function(){(c.s=c.s||[]).push(arguments)};var c=e[g]._={},f=i.methods.length; while(f--){(function(j){e[g][j]=function(){e[g]("call",j,arguments)}})(i.methods[f])} c.l=i.loader;c.i=arguments.callee;c.f=setTimeout(function(){if(c.f){(new Image).src=a+"//"+c.l.replace(".js",".png")+"&"+escape(e.location.href)}c.f=null},20000);c.p={0:+new Date};c.P=function(j){c.p[j]=new Date-c.p[0]};function d(){c.P(b);e[g](b)}e.addEventListener?e.addEventListener(b,d,false):e.attachEvent("on"+b,d); (function(){function l(j){j="head";return["<",j,"></",j,"><",z,' onl'+'oad="var d=',B,";d.getElementsByTagName('head')[0].",y,"(d.",A,"('script')).",u,"='",a,"//",c.l,"'",'"',"></",z,">"].join("")}var z="body",s=h[z];if(!s){return setTimeout(arguments.callee,100)}c.P(1);var y="appendChild",A="createElement",u="src",r=h[A]("div"),G=r[y](h[A](g)),D=h[A]("iframe"),B="document",C="domain",q;r.style.display="none";s.insertBefore(r,s.firstChild).id=g;D.frameBorder="0";D.id=g+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){D.src="javascript:false"} D.allowTransparency="true";G[y](D);try{D.contentWindow[B].open()}catch(F){i[C]=h[C];q="javascript:var d="+B+".open();d.domain='"+h.domain+"';";D[u]=q+"void(0);"}try{var H=D.contentWindow[B];H.write(l());H.close()}catch(E){D[u]=q+'d.write("'+l().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}c.P(2)})()})()})({loader:(function(a){return "static.olark.com/jsclient/loader0.js?ts="+(a?a[1]:(+new Date))})(document.cookie.match(/olarkld=([0-9]+)/)),name:"olark",methods:["configure","extend","declare","identify"]});
+olark.identify('4952-708-10-9352');/*]]>{/literal}*/</script>
+  <script type='text/javascript'> olark('api.box.hide') </script>
+
+
+ <!--
+Start of DoubleClick Floodlight Tag: Please do not remove
+Activity name of this tag: Storefront Visit
+URL of the webpage where the tag is expected to be placed: http://newrelic.com
+This tag must be placed between the <body> and </body> tags, as close as possible to the opening tag.
+Creation Date: 01/10/2013
+-->
+<script type="text/javascript">
+var axel = Math.random() + "";
+var a = axel * 10000000000000;
+document.write('<iframe src="http://3742665.fls.doubleclick.net/activityi;src=3742665;type=store622;cat=store767;ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+</script>
+<noscript>
+<iframe src="http://3742665.fls.doubleclick.net/activityi;src=3742665;type=store622;cat=store767;ord=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+</noscript>
+<!-- End of DoubleClick Floodlight Tag: Please do not remove --> 
+
+
+
+  </div>
+</div>
+
+  <script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {
+NREUMQ.push(["load",new Date().getTime()]);
+var e=document.createElement("script");
+e.type="text/javascript";
+e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" +
+  "d7p9czrvs14ne.cloudfront.net/42/eum/rum-staging.js";
+document.body.appendChild(e);
+if(NREUMQ.a)NREUMQ.a();
+};
+NREUMQ.a=window.onload;window.onload=NREUMQ.f;
+};
+NREUMQ.push(["nrfj","staging-beacon-1.newrelic.com","528f970912","8683","cV5eEkBfCF1WRBgRB1VUQ0lCQgtVRlVDPhRHXA==",0,30,new Date().getTime(),"","","","",""]);</script></body>
+</html>
